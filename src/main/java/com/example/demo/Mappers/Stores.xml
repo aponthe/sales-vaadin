@@ -1,0 +1,10 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tu.paquete.YourMapper">
+    <insert id="insertTuEntidad" parameterType="TuEntidad">
+        <!-- Tu sentencia SQL para el insert -->
+        INSERT INTO tu_tabla (columna1, columna2, columna3)
+        VALUES (#{propiedad1}, #{propiedad2}, #{propiedad3})
+    </insert>
+</mapper>
