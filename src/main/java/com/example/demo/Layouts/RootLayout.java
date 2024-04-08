@@ -6,7 +6,7 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 public class RootLayout extends VerticalLayout {
     /**
      * this is the base layout for views
-     * v3
+     * v4
      */
     public RootLayout() {
         Navbar navbar = new Navbar();
