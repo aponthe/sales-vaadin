@@ -19,6 +19,9 @@ public class RootLayout extends VerticalLayout {
     /**
      * this is incorrect, otro cambio desde QA
      */
+    /**
+     * hola
+     */
     public RootLayout() {
         Navbar navbar = new Navbar();
         this.add(navbar);
