@@ -16,6 +16,9 @@ public class RootLayout extends VerticalLayout {
      * pull request test
      * v1
      */
+    /**
+     * open pull request for QA
+     */
     public RootLayout() {
         Navbar navbar = new Navbar();
         this.add(navbar);
