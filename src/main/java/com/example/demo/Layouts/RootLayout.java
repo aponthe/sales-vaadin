@@ -17,7 +17,7 @@ public class RootLayout extends VerticalLayout {
      * v1
      */
     /**
-     * open pull request for QA
+     * this is incorrect
      */
     public RootLayout() {
         Navbar navbar = new Navbar();
